@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+    background-color: #000000;
+    color: #f5f5f5;
+    font-family: "Inter", sans-serif;
+}
+
+.box {
+    background:hsl(0, 0%, 12%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 9px;
+}
+
+
+.box>.content>.line {
+    color: hsl(75, 100%, 43%);
+}
+
+.box img {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    /* Ensure the image doesn't exceed the container's width */
+    height: auto;
+    border-radius: 100px;
+}
+.box .content{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box>.content>p{
+    font-size: 14px;
+}
+.box>.content>ul{
+    position: relative;
+    width: 450px;
+    
+    padding: 10px;
+    box-sizing: border-box;
+}
+.box>.content ul li{
+    display: flex;
+    background-color:hsl(0, 0%, 20%);
+    padding: 9px 20px;
+    color: #ffff;
+    margin: 15px 25px;
+    justify-content: center;
+    border-radius: 9px;        
+}
+.box>.content ul li:hover{
+    background-color: rgb(217, 255, 4);
+    color: #000000;
+}
